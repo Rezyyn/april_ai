@@ -1,4 +1,4 @@
-from .april import AprilCog
+from .april_cog import AprilCog
 
 def setup(bot):
     """Load the AprilCog cog."""
