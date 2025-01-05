@@ -9,6 +9,7 @@ class April(commands.Cog):
 
     def __init__(self, bot):
         self.bot = bot
+        self.api_url = "http://192.168.1.129/:8080/chat"
         self.config = Config.get_conf(self, 14000605, force_registration=True)
         default_guild = {
             "toggle": True
