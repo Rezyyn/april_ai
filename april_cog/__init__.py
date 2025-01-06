@@ -1,4 +1,7 @@
 from redbot.core.bot import Red
+from redbot.core import commands
+import aiohttp
+
 from .april_cog import AprilCog
 
 

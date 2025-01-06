@@ -1,5 +1,4 @@
-from redbot.core import commands
-import aiohttp
+
 
 
 class AprilCog(commands.Cog):
