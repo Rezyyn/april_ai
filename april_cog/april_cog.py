@@ -1,6 +1,7 @@
 from redbot.core import commands
 import aiohttp
 
+
 class AprilCog(commands.Cog):
     """A cog that chats with an external API"""
 
