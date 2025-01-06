@@ -1,6 +1,8 @@
+from redbot.core.bot import Red
 from .april_cog import AprilCog
 
 
-def setup(bot):
-    """Load the AprilCog cog."""
-    bot.add_cog(AprilCog(bot))
+async def setup(bot: Red) -> None:
+    """Load Dice cog."""
+    cog = AprilCog(bot)
+    await bot.add_cog(cog)
