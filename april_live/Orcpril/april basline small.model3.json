@@ -1,0 +1,23 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "april basline small.moc3",
+		"Textures": [
+			"april basline small.2048/texture_00.png"
+		],
+		"Physics": "april basline small.physics3.json",
+		"DisplayInfo": "april basline small.cdi3.json"
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": []
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	]
+}
