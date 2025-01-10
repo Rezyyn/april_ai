@@ -1,9 +1,6 @@
-
-
-
 class AprilCog(commands.Cog):
     """A cog that chats with an external API"""
-
+    self.api_url = "http://192.168.1.129/:8080/chat"
     def __init__(self, bot):
         self.bot = bot
         self.api_url = "http://192.168.1.129/:8080/chat"
