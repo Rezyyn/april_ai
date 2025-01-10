@@ -3,6 +3,8 @@ I love the month April
 
 # april_ai
 
+# april_ai
+
 April AI is a quirky, entertaining AI core designed for dynamic interactions and seamless integrations across multiple platforms. Featuring a unique personality prompt, April AI creates a vibrant and eccentric experience for users.
 
 ---
@@ -47,50 +49,22 @@ This prompt defines the unique behavioral traits of April AI, shaping its respon
 
 ---
 
-## TopoJSON of the High-Level Architecture
+## Mermaid Diagram
 
-```json
-{
-  "type": "Topology",
-  "objects": {
-    "april_ai_core": {
-      "type": "GeometryCollection",
-      "geometries": [
-        {
-          "type": "Point",
-          "properties": { "name": "Twitch Chat Integration" },
-          "coordinates": [0, 0]
-        },
-        {
-          "type": "Point",
-          "properties": { "name": "Inference Engine (LLM)" },
-          "coordinates": [1, 0]
-        },
-        {
-          "type": "Point",
-          "properties": { "name": "VTuber Avatar Control" },
-          "coordinates": [0, 1]
-        },
-        {
-          "type": "Point",
-          "properties": { "name": "Text-to-Speech (TTS)" },
-          "coordinates": [1, 1]
-        },
-        {
-          "type": "Point",
-          "properties": { "name": "Discord Cog Integration" },
-          "coordinates": [0, -1]
-        },
-        {
-          "type": "Point",
-          "properties": { "name": "Web Integrations" },
-          "coordinates": [1, -1]
-        }
-      ]
-    }
-  },
-  "arcs": []
-}
+```mermaid
+graph TD
+    A[April AI LLM Core]
+    B[Twitch Chat Integration]
+    C[VTuber Avatar Control]
+    D[Text-to-Speech (TTS)]
+    E[Discord Cog Integration]
+    F[Web Integrations]
+
+    B --> A
+    E --> A
+    F --> A
+    A --> C
+    A --> D
 ```
 
 ---
