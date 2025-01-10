@@ -51,7 +51,7 @@ graph TD
     A[April AI LLM Core]
     B[Twitch Chat Integration]
     C[VTuber Avatar Control]
-    D[Text-to-Speech (TTS)]
+    D[Text-to-Speech TTS]
     E[Discord Cog Integration]
     F[Web Integrations]
 
