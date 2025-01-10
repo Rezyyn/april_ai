@@ -1,9 +1,4 @@
 # april_ai
-I love the month April
-
-# april_ai
-
-# april_ai
 
 April AI is a quirky, entertaining AI core designed for dynamic interactions and seamless integrations across multiple platforms. Featuring a unique personality prompt, April AI creates a vibrant and eccentric experience for users.
 
