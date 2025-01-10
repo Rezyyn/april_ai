@@ -54,11 +54,11 @@ This prompt defines the unique behavioral traits of April AI, shaping its respon
 ```mermaid
 graph TD
     A[April AI LLM Core]
-    B[Twitch Chat Integration]
-    C[VTuber Avatar Control]
-    D[Text-to-Speech (TTS)]
-    E[Discord Cog Integration]
-    F[Web Integrations]
+    B((Twitch Chat Integration))
+    C((VTuber Avatar Control))
+    D((Text-to-Speech (TTS)))
+    E((Discord Cog Integration))
+    F((Web Integrations))
 
     B --> A
     E --> A
