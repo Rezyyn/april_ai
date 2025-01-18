@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 fastapi==0.100.0
 uvicorn==0.23.0
 transformers==4.34.0
 
 #pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+=======
+fastapi==0.100.0
+uvicorn==0.23.0
+transformers==4.34.0
+
+#pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+>>>>>>> e3f865b49b5649cd25509beb419db0b6fe201ff1
