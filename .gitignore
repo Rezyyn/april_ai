@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+# PyPI configuration file
+.pypirc
+/april_core/model_offload
